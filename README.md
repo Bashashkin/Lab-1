@@ -1,6 +1,10 @@
 # Lab-1
 Сделал: Башашкин Алексей
 Группа: АДЭУ-221
-[task_01_02_01.ods](https://github.com/Bashashkin/Lab-1/files/9527439/task_01_02_01.ods)
+Почта: alesha_2010@list.ru
+
+[Uploading task_01_02_01.ods…]()
 [task_01_02_02.ods](https://github.com/Bashashkin/Lab-1/files/9527442/task_01_02_02.ods)
 [task_01_02_03.ods](https://github.com/Bashashkin/Lab-1/files/9527444/task_01_02_03.ods)
+
+По ходу работы возникли трудности в определении быстродействия моего мобильного устройства и ЭВМ Марк I
