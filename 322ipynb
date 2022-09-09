@@ -1,0 +1,107 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNV+jrQs7qSSzWSoYXlaWci",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Bashashkin/Lab-1/blob/main/322ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        " № 3.2.2\n",
+        "\n",
+        "Вычислите значение следующего выражения (аргументы - целые числа и вводятся с клавиатуры):\n",
+        "![image.png](data:image/png;base64,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)\n",
+        "Округлите результат до 3-х знаков после запятой, используя функцию round()."
+      ],
+      "metadata": {
+        "id": "5sir_thu8rzQ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 7,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UElufvJ38oHn",
+        "outputId": "8344d927-15c2-436d-f2cb-98f30bba9ca0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "x=0\n",
+            "y=1\n",
+            "z=2\n",
+            "0.15\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Программирование на языке высокого уровня (Python).\n",
+        "# https://www.yuripetrov.ru/edu/python\n",
+        "# Задание task_03_02_02.\n",
+        "#\n",
+        "# Выполнил: Башашкин А.М\n",
+        "# Группа: АДЭУ-221\n",
+        "# E-mail: alesha_2010@list.ru\n",
+        "\n",
+        "\n",
+        "x = int(input(\"x=\"))\n",
+        "y = int(input(\"y=\"))\n",
+        "z = int(input(\"z=\"))\n",
+        "\n",
+        "t1=x**5+7\n",
+        "t2=abs(-6)*y\n",
+        "t3=7-(z%y)\n",
+        "\n",
+        "res1=(t1/t2)**(1/3)\n",
+        "res2=(round(res1/t3,3))\n",
+        "\n",
+        "\n",
+        "print(res2)\n",
+        "\n",
+        "\n",
+        "# --------------\n",
+        "# Пример вывода:\n",
+        "#\n",
+        "# x=0\n",
+        "# y=1\n",
+        "# z=2\n",
+        "# 0.15\n",
+        "\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "kZoR6QJ_8qFg"
+      }
+    }
+  ]
+}
